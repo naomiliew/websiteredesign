@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            box-sizing:border-box;
+        }
+        /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 5px;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        body{
+            background-image:url("images/tree-988615_960_720 copy.jpg");
+            font-family: Helvetica, sans-serif;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px;
+        }
+        .wrapper{
+            width:1490px;
+            height:800px;
+            position: center;
+            margin:0 auto;
+        }
+
+        header{
+            width:1160px;
+            height:100px;
+            margin:0 auto;
+
+        }
+
+        h1 {
+            color: black;
+            font-size: 75px;
+            text-align: center;
+            font-family: Helvetica, sans-serif;
+            margin: 0 auto;
+            font-weight: bold;
+            padding: 10px;
+            background-color: hsla(0, 0%, 100%, .75);
+
+        }
+        hr {
+            align-content: end;
+
+        }
+
+        nav{
+            width:180px;
+            height:500px;
+            position:center;
+            float:left;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: hsla(0, 0%, 50%, .5);
+            margin:0;
+            padding:0;
+            list-style-type:none;
+            text-align:center;
+            /*opacity: 0.5;*/
+        }
+
+        li {
+            padding: 0px;
+            display:inline-block;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        button:hover {
+            background-color: grey;
+        }
+button:visited {
+    background-color: grey;
+}
+        section{
+            height:650px;
+            padding: 20px;
+
+        }
+        section.bg{
+            background-color: hsla(0, 0%, 100%, .75);
+        }
+        .indent {
+            float: left;
+        }
+
+        .indent section{
+            width: 50%;
+            float:left;
+        }
+
+        h2 {
+            font-family: Helvetica,sans-serif;
+            font-size:20px;
+            font-weight:bold;
+            margin: 10px auto;
+            text-decoration: underline;
+            wdith: 585px;
+        }
+p{
+    float: left;
+    text-align: justify;
+    padding:0px;
+}
+        .welcomeparagraph
+        {
+            padding: 0px;
+
+        }
+        h2{
+            text-align: left;
+        }
+footer {
+    background-color: black;
+    width: 1180pt;
+
+}
+        img {
+            margin: 0 auto;
+            height: 100px;
+            width: 150px;
+            display: block;
+            float: left;
+        }
+        header{
+            color: black;
+            font-size: 75px;
+            text-align: right;
+            font-family: Helvetica, sans-serif;
+            margin: 0 auto;
+            display: flex;
+            font-weight: bold;
+            padding: 10px;
+            background-color: hsla(0, 0%, 100%, .75);
+            width: 1480px;
+            background-position: center;
+
+
+        }        h1 {
+                     color: black;
+                     font-size: 20px;
+                     text-align: left;
+                     font-family: Helvetica, sans-serif;
+                     margin: 0 auto;
+                     font-weight: lighter;
+                     padding: 5px;
+                     background-color: hsla(0, 0%, 100%, .75);
+
+                 }
+    </style>
+</head>
+
+<body>
+
+<div class="wrapper">
+    <header>Henry's Woodworking</header>
+
+    <h1>If it's made of wood we can build it</h1>
+
+    <ul>
+        <li><a class="active" href="homeepage.html">Home</a></li>
+        <li><a href="homepage.html">About Us</a></li>
+        <li><a href="bedbath.html">Bed/Bath</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+        <li><a href="otherprojects.html">Other</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+
+    </ul>
+    <div class="welcomeparagraph">
+        <section class="bg indent">
+            <section>
+            <h2>Welcome</h2>
+
+            <p>Welcome to Henry’s Woodworking! We specialize in wood working, focusing on materials such as reclaimed wood, and fashioning into a unique piece.  On our webiste you will find custom pieces that we have created for our clients, ranging from bed frames to vanities, and even pub tables. These photos are for your reference so you can see examples of our work, however, feel free to contact us for a quote or with your own ideas, and we’ll do our best to assist you. If it’s made of wood, we can build it.
+            </p>
+        </section>
+        <section>
+            <h2>Recent Projects</h2>
+
+            <img src="images/rusticbathroomcrop.jpg" />
+            <img src="images/woodwallcrop.jpg"/>
+            <img src="images/br_1crop.jpg"/>
+            <img src="images/musicbox.jpg"/>
+            <img src="images/modernframe.jpg"/>
+            <img src="images/wood_table.jpg"/>
+            <img src="images/wood_Vanity.jpg"/>
+            <img src="images/wooden%20tub.jpg"/>
+            <img src="images/wood%20bowl.jpg"/>
+
+        </section>
+        </section>
+    </div>
+
+</div>
+<!--end of wrapper 1 -->
+
+
+
+
+
+<!--/.Carousel Wrapper-->
+</body>
